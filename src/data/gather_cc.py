@@ -55,8 +55,9 @@ def grab(line):
         print("Unknown error", e)
         pass
 
+
+ROOT = "cc_data"
 if __name__ == "__main__":
-    ROOT = "cc_data"
 
     if not os.path.exists(ROOT):
         os.mkdir(ROOT)

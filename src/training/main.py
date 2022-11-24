@@ -320,3 +320,4 @@ def copy_codebase(args):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
+# --save-frequency 1 --zeroshot-frequency 1  --report-to tensorboard --train-data=/Users/gillevi/Projects/unsup_clip/Athenry/Train_GCC-training_output_sample_128.csv --val-data=/Users/gillevi/Projects/unsup_clip/Athenry/Validation_GCC-1.1.0-Validation_output_sample_128.csv --csv-img-key filepath --csv-caption-key title --warmup 10000 --batch-size=128 --lr=1e-3 --wd=0.1 --epochs=100 --workers=1 --model RN50
